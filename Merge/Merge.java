@@ -1,7 +1,6 @@
-
 class Solution {
     public int[][] merge(int[][] intervals) {
-
+        
         List<int[]> result = new ArrayList<>();
 
         if(intervals.length == 0){
